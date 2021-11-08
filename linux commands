@@ -1,0 +1,19 @@
+mkdir :new directory
+rmdir:remote directory
+cli:commnd line intrface
+ls-ltr:listing of files
+clear:to clear
+pwd:print working directory
+cd : to change the current working directory
+cd basics:chamging work into basics
+/:root
+ls -l:to get into seprate lines
+cd ..:to get into before folder
+cat ayesha.txt:it is used in files to know what is present in the files, display the file
+ls -l| : to pass information output from one command to another command 
+su:switching used
+/etc:aplication related files will go
+touch:to create file
+ls -ltra:to get hidden files
+touch file1.txt file2.txt:to create two files
+cat file1.txt:to get the initial content in file 1
