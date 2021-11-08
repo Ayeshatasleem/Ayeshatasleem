@@ -1,0 +1,35 @@
+    vi commands
+    to create a file(vi- zebra):it directly enters into zebra files
+    to save ypur file contents and to exit:Esc+:+w+q+enter
+    to wanted to quit without saving:Esc+:+q+!enter
+    i- it takes you to insert mode
+    Esc-terminate your insert mode and will goto command mode
+    u-undo  all changes to the entire line
+    o-open a new file
+    dd-delete the current line where cursor is present
+    3dd -delete three  lines
+    D -delete content of line after the cursor
+    c-delete contents of line after the cursor and insert new text.press Esc key to end the insertion
+    dw-delete a word 
+    4dw-delete four words
+    cw-change word
+    x-delete character at the cursor
+    r-replace character
+    shift+zz-save the file and quit
+    w-save the file but file will be still open 
+    q-quit without saving
+    wq-quit after saving
+    gg-take your cursor to the first character of your file
+    dG-delete all the lines or text inside the file
+    /var-searching for specific word which is often repeated 
+    CHMOD USING NUMERIC CHARACTERS
+    NUMBER             REPRESENTS                STATUS
+    0                   no permission             -----
+    1                   execute permission         --x
+    2                   write permission           -w-
+    3                   execute and write           -wx
+    4                   read permission              r--
+    5                   read, execute                r-x
+    6                   read,write                  rw-
+    7                   read,write,execute          rwx
+    
