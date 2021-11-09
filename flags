@@ -1,0 +1,14 @@
+FLAGS:
+SOURCE SIDE ARCHIEVE /COMPRESSION FILE CREATION
+-C :Create a new archeive
+-v :verbose output
+-f :file.tar.gz:use archeive file as name 
+-z :apply this compressiontechnique(gzip)=.tar.gz
+-j :apply this compression technique (bzip2)=.tar.bz2
+ DESTINATION SIDE (OR)DECOMPRESS(OR) EXTRACT ALL CONTENTS:-
+ -t :list all the contents in an archieve
+ -x :extraction of all files from the archieve
+ -u :verbose output
+ -f file.tar.gz:use archeive filename
+ --exclude :exclude files matching pattern/directory/filename
+ *tar :cvjf myfiles .tar.bz2 filename
